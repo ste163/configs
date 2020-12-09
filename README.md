@@ -1,13 +1,13 @@
 # configs
->Getting setup for Git Bash for Windows, Windows Terminal, VS Code, Visual Studio
+>Getting setup with my personal settings for Git Bash for Windows, Windows Terminal, VS Code, Visual Studio
 
-# Setup
-## Git Bash for Windows
-### git-prompt.sh
+## Setup
+### Git Bash for Windows
+#### git-prompt.sh
 - Displays correct default prompt
 - Paste to ```C:\Program Files\Git\etc\profile.d``` and overwrite (make a backup of the git-prompt.sh that's in there)
 
-### gitconfig
+#### gitconfig
 - Setups up all the correct aliases for using Git
 - Paste ```gitconfig``` content from /gitConfig(LINK) to bottom of ```gitconfig``` located at ```C:\Program Files\Git\etc```
 

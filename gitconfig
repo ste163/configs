@@ -36,7 +36,7 @@
 	amend = commit --amend -m
 	main= !git checkout main&& git pull origin 
 	po = push origin
-	pcur = !git push origin `git branch --show-current`
+	pu = !git push origin `git branch --show-current`
 	pom = push origin main
 	poh = push origin HEAD
 	plo = pull origin

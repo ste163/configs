@@ -5,7 +5,7 @@
 ### Git Bash for Windows
 #### git-prompt.sh
 - Displays correct default prompt
-- Paste ```git-prompt.sh``` file from [git-prompt.sh](/git-prompt) to ```C:\Program Files\Git\etc\profile.d``` and overwrite ```git-prompt.sh``` in that directory (make a backup of the git-prompt.sh that's in there)
+- Paste ```git-prompt.sh``` file from [git-prompt.sh](/git-prompt.sh) to ```C:\Program Files\Git\etc\profile.d``` and overwrite ```git-prompt.sh``` in that directory (make a backup of the git-prompt.sh that's in there)
 
 #### gitconfig
 - Setups up all the correct aliases for using Git

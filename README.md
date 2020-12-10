@@ -5,16 +5,16 @@
 ### Git Bash for Windows
 #### git-prompt.sh
 - Default Bash prompt
-- Paste ```git-prompt.sh``` file from [git-prompt.sh](/git-prompt.sh) to ```C:\Program Files\Git\etc\profile.d``` and overwrite <br>
+- Paste [git-prompt.sh](/git-prompt.sh) to ```C:\Program Files\Git\etc\profile.d``` and overwrite <br>
     ```git-prompt.sh``` in that directory (make a backup of the git-prompt.sh that's in there)
 
 #### gitconfig
 - Aliases for using Git
-- Paste ```gitconfig``` content from [gitconfig](/gitconfig) to bottom of ```gitconfig``` located at ```C:\Program Files\Git\etc```
+- Paste [gitconfig](/gitconfig) to bottom of ```gitconfig``` located at ```C:\Program Files\Git\etc```
 
 #### bash.bashrc
 - Aliases for non-Git related commands (and backup of .bashrc) 
-- Paste from ```bash.bashrc``` at [bash.bashrc](/bash.bashrc) ```#Aliases``` section down into ```bash.bashrc``` located at <br>
+- Paste [bash.bashrc](/bash.bashrc) ```#Aliases``` section at bottom of ```bash.bashrc``` located at <br>
     ```C:\Program Files\Git\etc```
 
 ### Windows Terminal

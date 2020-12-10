@@ -1,5 +1,5 @@
 # configs
->Getting setup with my personal settings for Git Bash for Windows, Windows Terminal, VS Code, Visual Studio
+>Personal settings for Git Bash for Windows, Windows Terminal, VS Code, Visual Studio
 
 ## Setup
 ### Git Bash for Windows

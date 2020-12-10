@@ -19,7 +19,8 @@
 
 ### Windows Terminal
 - Displays correct Windows Terminal themes and menu options
-- If Git Bash flashes white when backspacing, go to ```C:\Program Files\Git\etc\inputrc``` and change ```set bell-style visible``` to ```set bell-style none```
+- If Git Bash flashes white when backspacing, go to ```C:\Program Files\Git\etc\inputrc``` and change <br>
+    ```set bell-style visible``` to ```set bell-style none```
 - Paste ```settings.JSON``` from /settings.JSON(LINK) over locale ```settings.JSON``` (may bug-out if there is no Ubuntu installed. So it might be best to pick and choose what options are best to copy over)
 
 ### VS Code

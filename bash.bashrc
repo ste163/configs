@@ -1,10 +1,3 @@
-# To the extent possible under law, the author(s) have dedicated all 
-# copyright and related and neighboring rights to this software to the 
-# public domain worldwide. This software is distributed without any warranty. 
-# You should have received a copy of the CC0 Public Domain Dedication along 
-# with this software. 
-# If not, see <https://creativecommons.org/publicdomain/zero/1.0/>. 
-
 # /etc/bash.bashrc: executed by bash(1) for interactive shells.
 
 # System-wide bashrc file
@@ -66,4 +59,4 @@ shopt -q login_shell || . /etc/profile.d/git-prompt.sh
 
 # Aliases
 # alias alias_name="command_to_run"
-# alias dnr="dotnet run"
+alias dnr="dotnet run"

@@ -14,7 +14,7 @@
 
 #### bash.bashrc
 - Aliases for non-Git related commands (and backup of .bashrc) 
-- Paste [bash.bashrc](/bash.bashrc) ```#Aliases``` section at bottom of ```bash.bashrc``` located at <br>
+- Paste [bash.bashrc](/bash.bashrc) ```#Aliases``` section to bottom of ```bash.bashrc``` located at <br>
     ```C:\Program Files\Git\etc```
 
 ### Windows Terminal
@@ -33,3 +33,9 @@
 ### Visual Studio
 - Theme: One Dark Pro
 - Visual Studio Spell Checker
+- .gitignore file. Run following code from any Git Bash window
+    ```echo "dnignore() {
+        curl -L -s 'https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore' > .gitignore
+    }" >> ~/.bashrc
+    ```
+    Running ```dnignore``` will generate a .gitignore specific to Visual Studio

@@ -34,7 +34,8 @@
 - Theme: One Dark Pro
 - Visual Studio Spell Checker
 - .gitignore file. Run following code from any Git Bash window
-    ```echo "dnignore() {
+    ```
+    echo "dnignore() {
         curl -L -s 'https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore' > .gitignore
     }" >> ~/.bashrc
     ```

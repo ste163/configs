@@ -4,8 +4,19 @@
 	coo = !git fetch && git checkout
 	fa = fetch --all
 	br = branch
+	
+	## Deleting Branches locally & remotely
+	# deletes any branch that has been merged
 	brd = branch -d
+
+	# deletes any branch regardless of merges
 	brD = branch -D
+
+	# git push origin :branchName deletes the branch at that remote [currently the origin remote]
+
+	# cleans up all deleted branches locally
+	fapr = fetch --all --prune
+
 	merged = branch --merged
 	st = status
 	aa = add -A .
@@ -13,10 +24,13 @@
 	aacm = !git add -A . && git commit -m
 	amend = commit --amend -m
 	main= !git checkout main && git pull origin 
+	po = push origin
 	pu = !git push origin `git branch --show-current`
 	pom = push origin main
+	poh = push origin HEAD
 	plo = pull origin
 	plom = pull origin main
+	ploh = pull origin HEAD
 	unstage = reset --soft HEAD^
 	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
 	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat

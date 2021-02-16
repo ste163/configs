@@ -60,3 +60,4 @@ shopt -q login_shell || . /etc/profile.d/git-prompt.sh
 # Aliases
 # alias alias_name="command_to_run"
 alias dnr="dotnet run"
+alias la="ls -la"

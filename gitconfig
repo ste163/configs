@@ -9,6 +9,9 @@
 	# deletes any branch that has been merged
 	brd = branch -d
 
+	# deletes all local branches that have been merged - not working as alias, but can be copy-pasted
+	# brda = "!git branch --merged | egrep -v '(^\*|master|main|develop|development)' | xargs git branch -d"
+
 	# deletes any branch regardless of merges
 	brD = branch -D
 
